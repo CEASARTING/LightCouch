@@ -229,7 +229,7 @@ public class CouchDbClient extends CouchDbClientBase implements Closeable {
 		HttpClientUtils.closeQuietly(this.httpClient);
 	}
 
-	
+
 	public void close() throws IOException {
 		shutdown();
 	}
